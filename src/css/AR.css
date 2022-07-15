@@ -1,0 +1,55 @@
+.btn-ar {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  margin-top: -150px;
+  border: none;
+  border-radius: 30px;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  background: linear-gradient(
+    283.75deg,
+    #fc252f 7.97%,
+    #f0375d 37.79%,
+    #f78830 79.71%,
+    #ffe105 112.31%
+  );
+}
+
+.ar {
+  position: relative;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-ar1 {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  margin-top: -90px;
+  border: none;
+  border-radius: 30px;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  background: linear-gradient(
+    283.75deg,
+    #fc252f 7.97%,
+    #f0375d 37.79%,
+    #f78830 79.71%,
+    #ffe105 112.31%
+  );
+}
+
+.ar1 {
+  position: relative;
+}
+
+.btn1 {
+    display: flex;
+    justify-content: center;
+}

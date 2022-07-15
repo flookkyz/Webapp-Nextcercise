@@ -1,0 +1,145 @@
+.body {
+  background-color: #1a1d21;
+  height: 100vh;
+  position: relative;
+}
+
+.body-ar-success {
+  background-color: #1a1d2100;
+  height: 100vh;
+  position: relative;
+}
+.logo {
+  width: 130px;
+  height: 70px;
+  margin-top: 30px;
+}
+
+.success {
+    position: absolute;
+    flex-direction: column;
+    margin-top: -110%;
+    background-color: white;
+    width: 100vw;
+    height: 60%;
+    border-radius: 30px 30px 0px 0px;
+    padding: 30px 0px 0px 0px;
+  }
+
+.ar-success {
+  position: absolute;
+  flex-direction: column;
+  margin-top: -80%;
+  background-color: white;
+  width: 100vw;
+  height: 60%;
+  border-radius: 30px 30px 0px 0px;
+  padding: 30px 0px 0px 0px;
+}
+
+.text-h {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.text-t {
+  font-size: 20px;
+  font-weight: bold;
+  color: #f46245;
+  margin-top: 50px;
+}
+
+.ar-text-t {
+  font-size: 16px;
+  font-weight: bold;
+  color: #604e62;
+  margin-top: 20px;
+}
+
+.pic-success {
+  width: 80%;
+  margin-top: 20px;
+}
+
+.btn-sc {
+  width: 80%;
+  height: 60px;
+  border: none;
+  border-radius: 30px;
+  margin-top: 30px;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  background: linear-gradient(
+    283.75deg,
+    #fc252f 7.97%,
+    #f0375d 37.79%,
+    #f78830 79.71%,
+    #ffe105 112.31%
+  );
+}
+
+.circle-checkpoint {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0px 10% 0px 10%;
+  margin-top: 20px;
+}
+
+.checkpoint-default {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  border: 5px solid #8d8d8d;
+  background-color: #c8c8c8;
+  color: white;
+  font-size: 24px;
+}
+
+.checkpoint-success {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  border: 5px solid #0aeb57;
+  background-color: #0aeb57;
+  color: white;
+}
+
+.checkpoint-true-icon {
+    width: 60%;
+    height: 90%;
+}
+
+@media screen and (max-width: 350px) {
+  .btn-sc {
+    margin-top: 15px;
+    height: 40px;
+  }
+  .ar-text-t {
+    margin-top: 5px;
+  }
+  .checkpoint-default {
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+    border: 3px solid #8d8d8d;
+  }
+  .checkpoint-success {
+    width: 30px;
+    height: 30px;
+    border: 3px solid #0aeb57;
+  }
+  .success{
+    margin-top: -180%;
+    height: 75%;
+  }
+}

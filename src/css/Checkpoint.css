@@ -1,0 +1,400 @@
+.map {
+  width: 100%;
+  position: relative;
+}
+
+.checkpoint1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  margin-top: -323%;
+  margin-left: 11%;
+  border: 8px solid #f99500;
+  border-radius: 100%;
+  width: 70px;
+  height: 70px;
+  background-color: #ffc42d;
+}
+
+.checkpoint1-success {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  margin-top: -323%;
+  margin-left: 11%;
+  border: 8px solid #15ff65;
+  border-radius: 100%;
+  width: 70px;
+  height: 70px;
+  background-color: black;
+}
+
+.fill {
+  fill: #15ff65;
+  margin-top: 10px;
+}
+
+.checkpointlock1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  margin-top: -323%;
+  margin-left: 11%;
+  border: 8px solid #ffff;
+  border-radius: 100%;
+  width: 70px;
+  height: 70px;
+  background-color: #000000;
+}
+
+.checkpointlock2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  margin-top: -250%;
+  margin-left: 40%;
+  border: 8px solid #ffff;
+  border-radius: 100%;
+  width: 70px;
+  height: 70px;
+  background-color: #000000;
+}
+
+.checkpointlock3 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  margin-top: -197%;
+  margin-left: 7%;
+  border: 8px solid #ffff;
+  border-radius: 100%;
+  width: 70px;
+  height: 70px;
+  background-color: #000000;
+}
+.checkpointlock4 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  margin-top: -143%;
+  margin-left: 50%;
+  border: 8px solid #ffff;
+  border-radius: 100%;
+  width: 70px;
+  height: 70px;
+  background-color: #000000;
+}
+.checkpointlock5 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  margin-top: -70%;
+  margin-left: 40%;
+  border: 8px solid #ffff;
+  border-radius: 100%;
+  width: 70px;
+  height: 70px;
+  background-color: #000000;
+}
+.checkpoint-name-1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  width: 150px;
+  margin-top: -298%;
+  margin-left: 2%;
+  border: 1px solid white;
+  border-radius: 20px;
+  background-color: black;
+
+  padding: 5px 0px 5px 0px;
+}
+.checkpoint2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  margin-top: -250%;
+  margin-left: 40%;
+  border: 8px solid #f99500;
+  border-radius: 100%;
+  width: 70px;
+  height: 70px;
+  background-color: #ffc42d;
+}
+
+.checkpoint-name-2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  margin-top: -225%;
+  margin-left: 31%;
+  border: 1px solid white;
+  border-radius: 20px;
+  background-color: black;
+  width: 150px;
+  padding: 5px 0px 5px 0px;
+}
+
+.checkpoint3 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  margin-top: -197%;
+  margin-left: 7%;
+  border: 8px solid #f99500;
+  border-radius: 100%;
+  width: 70px;
+  height: 70px;
+  background-color: #ffc42d;
+}
+
+.checkpoint-name-3 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  margin-top: -172%;
+  margin-left: 0%;
+  border: 1px solid white;
+  border-radius: 20px;
+  background-color: black;
+  width: 150px;
+  padding: 5px 0px 5px 0px;
+}
+
+.checkpoint4 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  margin-top: -143%;
+  margin-left: 50%;
+  border: 8px solid #f99500;
+  border-radius: 100%;
+  width: 70px;
+  height: 70px;
+  background-color: #ffc42d;
+}
+
+.checkpoint-name-4 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  margin-top: -118%;
+  margin-left: 41%;
+  border: 1px solid white;
+  border-radius: 20px;
+  background-color: black;
+  width: 150px;
+  padding: 5px 0px 5px 0px;
+}
+
+.checkpoint5 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  margin-top: -70%;
+  margin-left: 40%;
+  border: 8px solid #f99500;
+  border-radius: 100%;
+  width: 70px;
+  height: 70px;
+  background-color: #ffc42d;
+}
+
+.checkpoint-name-5 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  margin-top: -45%;
+  margin-left: 31%;
+  border: 1px solid white;
+  border-radius: 20px;
+  background-color: black;
+  width: 150px;
+  padding: 5px 0px 5px 0px;
+}
+
+.checkpoint-num {
+  font-size: 32px;
+  color: white;
+  font-weight: bold;
+}
+
+.checkpoint-location {
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.checkpoint2-success {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  margin-top: -250%;
+  margin-left: 40%;
+  border: 8px solid #15ff65;
+  border-radius: 100%;
+  width: 70px;
+  height: 70px;
+  background-color: black;
+}
+
+.checkpoint3-success {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  margin-top: -197%;
+  margin-left: 7%;
+  border: 8px solid #15ff65;
+  border-radius: 100%;
+  width: 70px;
+  height: 70px;
+  background-color: black;
+}
+
+.checkpoint4-success {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  margin-top: -143%;
+  margin-left: 50%;
+  border: 8px solid #15ff65;
+  border-radius: 100%;
+  width: 70px;
+  height: 70px;
+  background-color: black;
+}
+
+.checkpoint5-success {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  margin-top: -70%;
+  margin-left: 40%;
+  border: 8px solid #15ff65;
+  border-radius: 100%;
+  width: 70px;
+  height: 70px;
+  background-color: black;
+}
+
+@media screen and (max-width: 350px) {
+  .checkpoint-name-1 {
+    width: 120px;
+  }
+  .checkpoint-name-2 {
+    width: 120px;
+  }
+  .checkpoint-name-3 {
+    width: 120px;
+  }
+  .checkpoint-name-4 {
+    width: 120px;
+  }
+  .checkpoint-name-5 {
+    width: 120px;
+  }
+  .checkpoint1 {
+    width: 60px;
+    height: 60px;
+    margin-top: -325%;
+    border: 4px solid #f99500;
+  }
+  .checkpoint2 {
+    width: 60px;
+    height: 60px;
+    margin-top: -252%;
+    border: 4px solid #f99500;
+  }
+  .checkpoint3 {
+    width: 60px;
+    height: 60px;
+    border: 4px solid #f99500;
+  }
+  .checkpoint4 {
+    width: 60px;
+    height: 60px;
+    margin-top: -145%;
+    border: 4px solid #f99500;
+  }
+  .checkpoint5 {
+    width: 60px;
+    height: 60px;
+    border: 4px solid #f99500;
+  }
+
+  .checkpointlock1 {
+    width: 60px;
+    height: 60px;
+    border: 4px solid white;
+  }
+  .checkpointlock2 {
+    width: 60px;
+    height: 60px;
+    border: 4px solid white;
+    margin-top: -252%;
+  }
+  .checkpointlock3 {
+    width: 60px;
+    height: 60px;
+    border: 4px solid white;
+  }
+  .checkpointlock4 {
+    width: 60px;
+    height: 60px;
+    border: 4px solid white;
+  }
+  .checkpointlock5 {
+    width: 60px;
+    height: 60px;
+    border: 4px solid white;
+  }
+
+  .checkpoint1-success {
+    width: 60px;
+    height: 60px;
+    margin-top: -325%;
+    border: 4px solid #15ff65;
+  }
+  .checkpoint2-success {
+    width: 60px;
+    height: 60px;
+    margin-top: -252%;
+    border: 4px solid #15ff65;
+  }
+  .checkpoint3-success {
+    width: 60px;
+    height: 60px;
+    border: 4px solid #15ff65;
+  }
+  .checkpoint4-success {
+    width: 60px;
+    height: 60px;
+    border: 4px solid #15ff65;
+    margin-top: -145%;
+  }
+  .checkpoint5-success {
+    width: 60px;
+    height: 60px;
+    border: 4px solid #15ff65;
+  }
+}
